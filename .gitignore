@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / local config
+.claude/
+
+# wx_key binaries (84MB, downloaded via pipeline/setup.py)
+third_party/wx_key/
+
+# Sensitive / per-machine generated files
+third_party/wechat-decrypt/all_keys.json
+third_party/wechat-decrypt/config.json
+third_party/wechat-decrypt/decrypted/
+third_party/wechat-decrypt/decoded_images/
+
+# WeChatMsg runtime data
+third_party/WeChatMsg/app/DataBase/Msg/
+third_party/WeChatMsg/app/data/
