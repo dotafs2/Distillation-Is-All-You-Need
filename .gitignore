@@ -15,6 +15,9 @@ third_party/wechat-decrypt/config.json
 third_party/wechat-decrypt/decrypted/
 third_party/wechat-decrypt/decoded_images/
 
+# UIAutomation logs
+@AutomationLog.txt
+
 # WeChatMsg runtime data
 third_party/WeChatMsg/app/DataBase/Msg/
 third_party/WeChatMsg/app/data/

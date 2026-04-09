@@ -14,3 +14,4 @@ WeChat encrypted DB  →  decrypt_wx4.py  →  clean SQLite  →  CSV  →  simu
 |---|---|
 | `setup.py` | One-command env setup: download wx_key + install deps |
 | `decrypt_wx4.py` | Auto-detect wxid, extract keys from memory, decrypt all DBs |
+| `send_wx_msg.py` | Send WeChat message via UI Automation: `--to NAME --msg "text"` |

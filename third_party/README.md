@@ -24,6 +24,16 @@
 - Location: `third_party/wechat-decrypt/`
 - Usage: `python pipeline/decrypt_wx4.py` or `cd third_party/wechat-decrypt && python main.py decrypt`
 
+## WeChatMassTool
+- Source / 来源: [Frica01/WeChatMassTool](https://github.com/Frica01/WeChatMassTool)
+- License: MIT
+- Purpose: Send WeChat messages via Windows UI Automation (no hooks, no ban risk) / 通过 UI 自动化发送微信消息（非 hook，不封号）
+- Tech: uiautomation + win32gui + clipboard
+- Deps: uiautomation, pywin32, WMI, comtypes
+- Location: `third_party/WeChatMassTool/`
+- Usage: `python pipeline/send_wx_msg.py --to NAME --msg "text"`
+- Note: WeChat 4.x config patched (window class `Qt51514QWindowIcon`, process `Weixin.exe`)
+
 ## PyWxDump
 - Source / 来源: [xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump) (repo deleted Oct 2025, legal takedown)
 - PyPI: `pip install pywxdump` (v3.1.46 still available as of Apr 2026)
