@@ -15,3 +15,4 @@
 | `setup.py` | 一键搭建环境：下载 wx_key + 安装依赖 |
 | `decrypt_wx4.py` | 自动检测账号、提取密钥、解密全部数据库 |
 | `send_wx_msg.py` | 通过 UI 自动化发送微信消息：`--to 联系人 --msg "内容"` |
+| `read_wx_msg.py` | 从加密数据库实时读取最新消息：`--watch` 持续监听 |
